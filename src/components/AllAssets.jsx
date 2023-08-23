@@ -20,7 +20,8 @@ export default function AllAssets() {
     
     try {
       const response = await axios.request(options);
-      setASSETS(await response.data.content)
+      const tempData = await response.data.content.slice(0,200)
+      setASSETS(await tempData)
     } catch (error) {
       console.error(error);
     }
