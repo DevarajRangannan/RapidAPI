@@ -1,5 +1,6 @@
 import React, {useEffect, useState} from 'react'
 import axios from 'axios'
+import copy from "copy-to-clipboard";
 
 const API = process.env.REACT_APP_RAPID_API
 
@@ -28,7 +29,7 @@ export default function AllAssets() {
   }
 
   const copyID = (e)=>{
-    navigator.clipboard.writeText(e.target.id)
+    copy(e.target.id)
     e.target.innerHTML="Copied"
 
     setTimeout(()=>{

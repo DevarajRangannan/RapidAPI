@@ -24,7 +24,7 @@ function Home() {
 
   return (
     <div className="App">
-      <div className="w-full min-w-[20em] h-10 md:max-w-screen-2xl md:m-auto ">
+      <div className="">
         <div className="mt-10 flex flex-col justify-center items-center">
           <span className="my-3 font-bold italic text-2xl">RapidAPI BraveNewCoin</span>
 

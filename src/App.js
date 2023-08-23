@@ -7,7 +7,7 @@ import Market from './components/Market';
 
 function App() {
   return(
-    <div>
+    <div className='w-full min-w-[20em] h-10 md:max-w-screen-2xl md:m-auto '>
       <Routes>
         <Route exact path='/' Component={Home}/>
         <Route path='/all-assets' Component={AllAssets}/>
