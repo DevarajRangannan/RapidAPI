@@ -26,7 +26,7 @@ function Home() {
     <div className="App">
       <div className="w-full min-w-[20em] h-10 md:max-w-screen-2xl md:m-auto ">
         <div className="mt-10 flex flex-col justify-center items-center">
-          <span className="my-3 font-bold italic">RapidAPI BraveNewCoin</span>
+          <span className="my-3 font-bold italic text-2xl">RapidAPI BraveNewCoin</span>
 
           <button className="bg-green-500 p-3 rounded text-white my-2 " onClick={()=>{get_all_assets()}}>Get All Assets</button>
           <button className="bg-green-500 p-3 rounded text-white my-2 " onClick={()=>{get_all_markets()}}>Get All Markets</button>
